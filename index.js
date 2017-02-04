@@ -84,7 +84,7 @@ function receivedMessage(event) {
         break;
 
       default:
-        sendTextMessage(senderID, messageText);
+        sendTextMessage(senderID, "stop talking to me.");
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
@@ -105,8 +105,7 @@ function callSendAPI(messageData) {
   }, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       var recipientId = body.recipient_id;
-      //var messageId = body.message_id;
-      var messageId = "whatup";
+      var messageId = body.message_id;
 
       console.log("Successfully sent generic message with id %s to recipient %s", 
         messageId, recipientId);
