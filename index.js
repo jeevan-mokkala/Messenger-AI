@@ -98,7 +98,7 @@ function sendGenericMessage(recipientId, messageText) {
 function callSendAPI(messageData) {
   request({
     uri: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: { access_token: PAGE_ACCESS_TOKEN },
+    qs: { access_token: access },
     method: 'POST',
     json: messageData
 
