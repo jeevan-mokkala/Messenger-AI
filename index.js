@@ -86,7 +86,7 @@ function receivedMessage(event) {
         break;
 
       default:
-        sendTextMessage(senderID, intro + warriorsMessage);
+        sendTextMessage(senderID, intro + currentMessage);
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
