@@ -80,7 +80,7 @@ function receivedMessage(event) {
     // and send back the example. Otherwise, just echo the text we received.
 
     var intro = "Listen, you can't just say '" + messageText + "' and not expect me to remind you that ";
-    var warriorsMessage = "the Warriors blew a 3-1 lead in the NBA finals."
+    var warriorsMessage = "the Atlanta falcsons blew a 28-3 lead in Superbowl LI."
     switch (messageText) {
       case 'generic':
         sendGenericMessage(senderID);
