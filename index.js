@@ -78,8 +78,8 @@ function receivedMessage(event) {
 
     // If we receive a text message, check to see if it matches a keyword
     // and send back the example. Otherwise, just echo the text we received.
-    var intro = "Listen, you can't just say '" + messageText + "'' and not expect me to remind you that ";
-    var currentMessage = "the Atlanta falcons blew a 28-3 lead in Superbowl LI."
+    var intro = "I guess you could say'" + messageText + "'', but ";
+    var currentMessage = "don't let that disctract you from the fact that Warriors blew a 3-1 lead in the NBA finals."
     switch (messageText) {
       case 'generic':
         sendGenericMessage(senderID);
