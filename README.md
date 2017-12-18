@@ -1,2 +1,2 @@
 # Messenger-AI
-Facebook Messenger chat bot that reminds of you the important things.
+Facebook Messenger chat bot that echoes your message, with a little extra.
