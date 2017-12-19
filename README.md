@@ -1,2 +1,2 @@
 # Messenger-AI
-Facebook Messenger chat bot that echoes your message, with a little extra.
+Send a message to https://www.facebook.com/reminderbyjeev/ to chat!
